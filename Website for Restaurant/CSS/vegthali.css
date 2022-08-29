@@ -1,0 +1,75 @@
+.top
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.First
+{
+    border: 0px solid red;
+    width: 370px;
+    height: 310px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+    transition: transform 1s;
+}
+h1
+{
+    text-align: center;
+}
+.First img
+{
+    width: 100%;
+}
+.checked
+{
+    color: orange;
+}
+.starr
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+.First:hover
+{
+    transform: scale(1.1);
+}
+p
+{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+b
+{
+    color: green;
+    font-size: 20px;
+}
+.btn
+{
+    border: 0px solid green;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn input
+{
+    height: 30px;
+    width: 130px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: orange;
+    font-size: 21px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+}
+.btn input:hover
+{
+    background-color: green;
+}

@@ -1,0 +1,43 @@
+
+h1
+{
+    text-align: center;
+    color: green;
+}
+div
+{
+    text-align: center;
+    align: center;
+}
+table
+{
+    width: 60%;
+    height: 400px;
+
+}
+input
+{
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    border: 2px solid green;
+}
+textarea
+{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border: 2px solid green;
+}
+select
+{
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid green;
+}
+input[type="button"]:hover
+{
+    background-color: black;
+    color: white;
+
+}
